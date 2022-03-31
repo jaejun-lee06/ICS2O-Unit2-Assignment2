@@ -12,7 +12,7 @@ function calculate () {
   const base = parseInt(document.getElementById('base-of-triangle').value)
 
   // process
-  const perimeter = height + base + sqrt(a * a + b * b)
+  const perimeter = height + base + Math.sqrt(height * height + base * base)
 
 
   // output
