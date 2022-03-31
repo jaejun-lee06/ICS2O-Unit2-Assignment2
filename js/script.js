@@ -16,5 +16,5 @@ function calculate () {
 
 
   // output
-  document.getElementById('perimeter').innerHTML = 'Perimeter is: ' + perimeter + ' cm²'
+  document.getElementById('perimeter').innerHTML = 'Perimeter is: ' + perimeter + ' cm'
 }
