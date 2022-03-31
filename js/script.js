@@ -8,12 +8,13 @@
  */
 function calculate () {
   // input
-  const base = parseInt(document.getElementById('base-of-triangle').value)
   const height = parseInt(document.getElementById('height-of-triangle').value)
+  const base = parseInt(document.getElementById('base-of-triangle').value)
 
   // process
-  const area = (1 / 2) * base * height
+  const perimeter = height + base + sqrt(a * a + b * b)
+
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
+  document.getElementById('perimeter').innerHTML = 'Perimeter is: ' + perimeter + ' cm²'
 }
